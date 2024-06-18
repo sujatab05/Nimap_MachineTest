@@ -19,7 +19,9 @@ Docker Compose: Docker Compose is typically included with Docker Desktop on Wind
 Installation
 Clone the Repository:
 git clone https://github.com/sujatab05/Nimap_MachineTest.git
+
 cd Nimap_MachineTest
+
 Create a data Directory:
 
 This directory will be used to store persistent data.
