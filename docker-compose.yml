@@ -4,6 +4,6 @@ services:
   web:
     build: .
     ports:
-      - "8000:80"  # Maps port 8000 on the host to port 80 in the container
+      - "8000:80"  
     volumes:
       - ./data:/app/data  # Maps the local 'data' directory to '/app/data' inside the container
