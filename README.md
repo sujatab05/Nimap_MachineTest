@@ -1,6 +1,6 @@
 #Docker-API
 
-This repository contains a FastAPI application developed as part of the Nimap Machine Test. The application is containerized using Docker and ensures data persistence with a JSON file.
+This repository contains a FastAPI application. The application is containerized using Docker and ensures data persistence with a JSON file.
 
 Introduction
 This project is a FastAPI-based web application designed for a machine test at Nimap. It demonstrates the use of Docker for containerization and manages data persistence using a JSON file stored within a Docker volume.
@@ -14,7 +14,7 @@ RESTful API: Provides endpoints to manage user data.
 
 #Prerequisites
 Docker: Ensure Docker is installed on your machine. You can download it from Docker's official website.
-Docker Compose: Docker Compose is typically included with Docker Desktop on Windows and Mac. On Linux, you may need to install it separately. Check Docker Compose installation guide.
+Docker Compose: Docker Compose is typically included with Docker Desktop on Windows and Mac. 
 
 Installation
 Clone the Repository:
@@ -25,22 +25,27 @@ cd Nimap_MachineTest
 Create a data Directory:
 
 This directory will be used to store persistent data.
+
 mkdir data
+
 Running the Application
+
 Build and Start the Application:
 
 Use Docker Compose to build and run the application.
 
 docker-compose up --build
+
 Access the Application:
 
-The application will be available at http://localhost:8000.
+The application will be available at  http://localhost:8000.
 
 API Documentation:
 
 FastAPI provides interactive API documentation at http://localhost:8000/docs.
 
 Stopping the Application
+
 To stop the application, use:
 
 docker-compose down
