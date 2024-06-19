@@ -3,7 +3,7 @@
 This repository contains a FastAPI application. The application is containerized using Docker and ensures data persistence with a JSON file.
 
 Introduction
-This project is a FastAPI-based web application designed for a machine test at Nimap. It demonstrates the use of Docker for containerization and manages data persistence using a JSON file stored within a Docker volume.
+This project is a FastAPI-based web application designed. It demonstrates the use of Docker for containerization and manages data persistence using a JSON file stored within a Docker volume.
 
 Features
 
