@@ -62,5 +62,5 @@ POST /users: Adds a new user. The request body should be a JSON object with the 
 Testing
 You can test the API endpoints using various tools:
 
-Swagger UI: Navigate to http://localhost:8000/docs for an interactive API interface.
+Swagger UI: Navigate to http://localhost:8000/users for an interactive API interface.
 
